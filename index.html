@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kaushik Attuluri</title>
+  <meta name="description" content="Kaushik Attuluri is a Data Science major at Purdue University building RAG systems and ML projects. Looking for CS, data science, and AI internships.">
+  <meta property="og:title" content="Kaushik Attuluri">
+  <meta property="og:description" content="Data Science major at Purdue. RAG, machine learning, and applied math. Looking for internships.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/headshot.png">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232f5bea'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>K</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">KA</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#project">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#book">Book</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img class="headshot" src="assets/headshot.png" alt="Portrait of Kaushik Attuluri" width="220" height="220">
+      <div class="hero-text">
+        <p class="eyebrow">Data Science @ Purdue University</p>
+        <h1>Kaushik Attuluri</h1>
+        <p class="tagline">I build AI systems where strong math meets practical engineering.</p>
+        <div class="links">
+          <a class="btn primary" href="https://github.com/kattuluri" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/kaushik-attuluri/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I'm Kaushik Attuluri, a Data Science major at Purdue University, graduating in December 2027. I'm drawn to the parts of AI where strong math meets practical engineering, especially retrieval-augmented generation (RAG), machine learning frameworks, and applying mathematical concepts directly in my projects. My featured project, Vector Search, is an example of that approach.</p>
+      <p>Away from the keyboard, I play pool, pickleball, golf, and cricket, and I'm a published author.</p>
+      <p>I'm currently looking for internships in computer science, data science, and AI. If you're working on something interesting, I'd love to hear from you.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li>
+          <div class="row"><h3>MCG Health <span>Software Engineering Intern</span></h3><p class="meta">Seattle, WA &middot; Jun 2026 &ndash; Aug 2026</p></div>
+          <ul>
+            <li>Built a Python tool integrating Salesforce, Jira, and Azure DevOps through MCP, using heuristic matching and time series analysis to attribute Jira tickets to specific repositories.</li>
+            <li>Built a code health analyzer with Python and concrete syntax trees that measured duplicate-code ratio, function length, and cyclomatic and cognitive complexity, reducing redundant logic in codebases by more than 50%. Packaged it as a Claude Agent Skill.</li>
+            <li>Researched LLM eval frameworks to validate chatbot answers against ground-truth Q/A pairs, and ran A/B tests across chatbot versions to find the best one.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="row"><h3>Hushh AI <span>Software Engineering Intern</span></h3><p class="meta">Kirkland, WA &middot; Dec 2025 &ndash; May 2026</p></div>
+          <ul>
+            <li>Contributed to agentic AI systems designed to support clients with financial decision-making.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="row"><h3>Samhitha Crop Care Clinics <span>Software Engineering Intern</span></h3><p class="meta">Redmond, WA &middot; Jun 2023 &ndash; Aug 2023</p></div>
+          <ul>
+            <li>Researched methods to calculate environmental-condition values for crops for an agritech app, and developed a startup idea to optimize growing conditions for crops in India.</li>
+          </ul>
+        </li>
+      </ul>
+      <p class="edu"><strong>Education:</strong> Purdue University, B.S. in Data Science &middot; Expected December 2027</p>
+    </section>
+
+    <section id="project">
+      <h2>Featured Project</h2>
+      <article class="card">
+        <h3>Vector Search</h3>
+        <p class="subtitle">A RAG chatbot for exploring research papers</p>
+        <p>Vector Search lets you ask questions about research papers on retrieval-augmented generation (RAG), with more topics coming soon. It has built-in A/B testing, so users can run their own evals. It is designed for beginners, general users, and advanced researchers alike.</p>
+        <dl class="stack">
+          <div><dt>Frontend</dt><dd>Next.js</dd></div>
+          <div><dt>Backend</dt><dd>Python</dd></div>
+          <div><dt>LLM</dt><dd>Claude Haiku 5.5</dd></div>
+          <div><dt>Embeddings</dt><dd>OpenAI text-embedding-3-large (3072 dimensions)</dd></div>
+          <div><dt>Vector DB</dt><dd>PostgreSQL + pgvector (Docker)</dd></div>
+          <div><dt>Evals</dt><dd>RAGAS</dd></div>
+          <div><dt>Agent</dt><dd>NVIDIA Object Oriented Agent</dd></div>
+        </dl>
+        <ul class="tags">
+          <li>RAG</li><li>Next.js</li><li>Python</li><li>Claude</li><li>pgvector</li><li>PostgreSQL</li><li>Docker</li><li>RAGAS</li><li>Evals</li>
+        </ul>
+        <a class="btn primary" href="https://vectorsearch12.com/" target="_blank" rel="noopener">View project &rarr;</a>
+      </article>
+
+      <h3 class="subhead">More projects</h3>
+      <ul class="plain">
+        <li><strong>Email Replying Assistant</strong> <span class="meta">May &ndash; Jun 2026</span><br>Python assistant using the Gmail and Anthropic APIs to generate email replies, saving supervisors at a local business about 3 hours per day.</li>
+        <li><strong>AI for Constrained Optimization (Purdue CS 49000)</strong> <span class="meta">Jan &ndash; May 2026</span><br>Research on the expressivity wall in clustering, and on how to collect, split, and use data to train and test the final ML model.</li>
+        <li><strong>Social Media App (Purdue CS 18000)</strong> <span class="meta">Apr &ndash; May 2025</span><br>Led a four-member team building a Facebook-style app with a Java client and server for messaging; wrote test cases that fixed 90% of bugs.</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <h3>Languages</h3>
+        <ul class="tags"><li>Python (Pandas, NumPy)</li><li>Java</li><li>R</li><li>SQL</li><li>PowerShell</li></ul>
+        <h3>Machine Learning &amp; Data Science</h3>
+        <ul class="tags"><li>RAG</li><li>LLM Evaluation</li><li>NLP</li><li>Graph Neural Networks</li><li>K-Nearest Neighbors</li><li>K-Means</li><li>PCA</li><li>Linear Regression</li><li>Supervised &amp; Unsupervised Learning</li><li>Time Series Analysis</li><li>Agentic Workflows</li></ul>
+        <h3>Engineering &amp; Tools</h3>
+        <ul class="tags"><li>Git &amp; GitHub</li><li>Docker</li><li>PostgreSQL</li><li>FastAPI</li><li>REST APIs</li><li>Azure DevOps</li><li>AWS</li><li>CI/CD</li><li>Model Context Protocol</li><li>Claude Code &amp; Agent Skills</li><li>A/B Testing</li><li>System Design</li></ul>
+      </div>
+    </section>
+
+    <section id="book">
+      <h2>Published Book</h2>
+      <article class="card">
+        <h3>The Kings Gambit</h3>
+        <p>A story about a 19th-century chess player, Paul Morphy, resurrected from the dead in the 21st century using cryogenics.</p>
+        <a class="btn" href="https://www.amazon.com/Kings-Gambit-Kaushik-Attuluri-ebook/dp/B09WLCKKYH" target="_blank" rel="noopener">View on Amazon &rarr;</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year">2026</span> Kaushik Attuluri</p>
+    <p>
+      <a href="https://github.com/kattuluri" target="_blank" rel="noopener">GitHub</a> &middot;
+      <a href="https://www.linkedin.com/in/kaushik-attuluri/" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
